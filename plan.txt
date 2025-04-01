@@ -1,0 +1,44 @@
+
+
+// Collections
+*Users 
+    * name
+    * email
+    * password
+        * login
+        * registration
+            * token
+                * jsonwebtoken
+
+    // Middlewares
+        * Validation
+            * Joi
+        * Token Authentication
+            * JWT 
+
+    // Routes
+    * register 
+    * login 
+    * getAllUser
+    * getUserById
+    * DeleletUser
+
+*Videos
+    * title
+    * duration
+    * videoUrl
+    * likes
+    
+    // Middlewares
+        * Validation
+            * Joi
+        * Token Authentication
+            * JWT 
+
+    // Routes
+    * createVideo
+    * updateVideoById
+    * getAllVideos
+    * getVideoById
+    * DeleletVideo
+    * like
